@@ -16,3 +16,5 @@ page_soup = soup(page_html, "html.parser")
 
 #grabs each product
 containers = page_soup.findAll("div", {"class":"item-container"})
+
+#TESTING TESTING TESTING#
